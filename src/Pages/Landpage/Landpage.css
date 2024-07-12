@@ -1,0 +1,44 @@
+.Section{
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    max-width: 80%;
+    margin: auto;
+    height:80vh;
+}
+
+.Information{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.Banner{
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: justify;
+    gap:35px;
+}
+
+.Line{
+    width: 50px;
+    height:1px;
+    border:1px ridge rgba(255, 255, 255, 0.342);
+}
+
+.MainTitle{
+    color:white;
+}
+
+.Subtittle{
+    font-size:1.5vw;
+    color:white;
+}
+
+.Tittle{
+    font-size:5vw;
+}

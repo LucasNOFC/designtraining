@@ -1,0 +1,82 @@
+.Header{
+    display: flex;
+    background-color: transparent;
+    padding:5px 25px;
+    border-bottom: 1px solid rgb(161, 6, 6);
+    width: 100%;    
+}
+
+.SecondHeader{
+    padding: 5px;
+    width: 100%;
+}
+
+.MainHeader{
+    padding: 10px;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavLinks{
+    display: flex;
+    justify-content: space-evenly;
+    gap:15px;
+    padding:0 5px 0 100px;
+    
+}
+
+.DivLinks{
+    display: flex;
+    gap:15px;
+}
+
+.LinkHeader{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.ButtonLink{
+    color:rgb(255, 255, 255);
+    padding:10px;
+    text-align: center;
+    cursor:pointer;
+    border-radius:6px;
+}
+
+#LoginBtn, #RegisterBtn, .LinkPath{
+    transition: all ease-in-out .2s;
+}
+
+.LinkPath:hover{
+    color:rgb(161,6,6);
+}
+
+#LoginBtn:hover, #RegisterBtn:hover, .LinkPath:hover{
+    transition: all ease-in-out .1s;
+}
+
+#LoginBtn{
+    width:120px;
+    background-color: rgb(161,6,6);
+    border: 1px solid rgb(161, 6, 6);
+}
+
+#RegisterBtn{
+    border:1px solid white;
+}
+
+#LoginBtn:hover{
+    background-color: white;
+    border:1px solid white;
+    color:rgb(161,6,6);
+}
+
+#RegisterBtn:hover{
+    border:1px solid rgb(161,6,6);
+    color:rgb(161,6,6);
+}
+

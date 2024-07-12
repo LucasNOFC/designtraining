@@ -1,0 +1,17 @@
+.AppContainer{
+    height: 100vh;
+    background-image: url('./Assets/Images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    position: relative;
+}
+
+.AppOverlay{
+    background-color: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
